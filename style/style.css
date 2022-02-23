@@ -289,7 +289,7 @@ header .navbar a img{
     margin-top: 30px;
     position: relative;
 }
-.row__item::before{
+.project__content .row__item::before{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -302,7 +302,7 @@ header .navbar a img{
     transition: all 0.65s;
     cursor: pointer;
 }
-.row__item::after{
+.project__content .row__item::after{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -316,10 +316,10 @@ header .navbar a img{
     cursor: pointer;
     opacity: 0;
 }
-.row__item:hover::before{
+.project__content .row__item:hover::before{
     opacity: 0;
 }
-.row__item:hover::after{
+.project__content .row__item:hover::after{
     opacity: 1;
 }
 .row__item:hover .project__heading{
@@ -418,4 +418,23 @@ header .navbar a img{
 }
 .about__inner .about__title p{
     color: #1d1d24bf;
+}
+.about__inner .nav.nav-tabs{
+    border-radius: 50em;
+    border: 1 solid #e6e6e6;
+}
+.about__inner .nav-tabs .nav-item a{
+    cursor: pointer;
+    border-radius: 50em;
+    padding: 13px 34px;
+    font-size: 16px;
+    color: #1d1d24bf;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s;
+    margin: -1px -2px -1px;
+}
+.about__inner .nav-tabs .active{
+    background-color: #FD4766;
+    color:#fff !important;
 }
