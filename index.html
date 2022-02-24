@@ -31,6 +31,7 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/validate.css" />
   </head>
   <body>
     <!-- header -->
@@ -432,142 +433,159 @@
             <div class="row mt--30">
               <div class="container">
                 <div class="row">
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        data-toggle="tab"
-                        href="#history"
-                        >Our History</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#mission"
-                        >Our Mission</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#vision"
-                        >Our Vision</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#support"
-                        >Support</a
-                      >
-                    </li>
-                  </ul>
+                  <div class="col-lg-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          data-toggle="tab"
+                          href="#history"
+                          >Our History</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#mission"
+                          >Our Mission</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#vision"
+                          >Our Vision</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#support"
+                          >Support</a
+                        >
+                      </li>
+                    </ul>
 
-                  <!-- Tab panes -->
-                  <div class="tab-content">
-                    <div class="tab-pane container active" id="history">
-                      <div class="about__tab__content">
-                        <h4>Lorem ipsum dolor sit.</h4>
-                        <ul class="list-style--1">
-                          <li>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="feather feather-check"
-                            >
-                              <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            The Philosophy Of business analytics
-                          </li>
-                          <li>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="feather feather-check"
-                            >
-                              <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Fast-Track Your business
-                          </li>
-                          <li>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="feather feather-check"
-                            >
-                              <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            Lies And Damn Lies About business
-                          </li>
-                          <li>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="feather feather-check"
-                            >
-                              <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
-                            The Ultimate Deal On business
-                          </li>
-                        </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div class="tab-pane container active" id="history">
+                        <div class="about__tab__content">
+                          <h4>Lorem ipsum dolor sit.</h4>
+                          <ul class="list-style--1">
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-check"
+                              >
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                              </svg>
+                              The Philosophy Of business analytics
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-check"
+                              >
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                              </svg>
+                              Fast-Track Your business
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-check"
+                              >
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                              </svg>
+                              Lies And Damn Lies About business
+                            </li>
+                            <li>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-check"
+                              >
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                              </svg>
+                              The Ultimate Deal On business
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                    </div>
-                    <div class="tab-pane container fade" id="mission">
-                      Fatima ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque ab aliquid, atque enim, vero nobis quam beatae
-                      nesciunt aliquam molestias, optio hic laborum esse.
-                      Deserunt architecto officiis laudantium corporis
-                      voluptatem. Jannin ipsum dolor sit amet consectetur
-                      adipisicing elit. Neque ab aliquid, atque enim, vero nobis
-                      quam beatae nesciunt aliquam molestias, optio hic laborum
-                      esse. Deserunt architecto officiis laudantium corporis
-                      voluptatem.
-                    </div>
-                    <div class="tab-pane container fade" id="vision">
-                      John ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque ab aliquid, atque enim, vero nobis quam beatae
-                      nesciunt aliquam molestias, optio hic laborum esse.
-                      Deserunt architecto officiis laudantium corporis
-                      voluptatem. Jane ipsum dolor sit amet consectetur
-                      adipisicing elit. Neque ab aliquid, atque enim, vero nobis
-                      quam beatae nesciunt aliquam molestias, optio hic laborum
-                      esse. Deserunt architecto officiis laudantium corporis
-                      voluptatem.
-                    </div>
-                    <div class="tab-pane container fade" id="support">
-                      John ipsum dolor sit amet consectetur adipisicing elit.
-                      Neque ab aliquid, atque enim, vero nobis quam beatae
-                      nesciunt aliquam molestias, optio hic laborum esse.
-                      Deserunt architecto officiis laudantium corporis
-                      voluptatem. Jane ipsum dolor sit amet consectetur
-                      adipisicing elit. Neque ab aliquid, atque enim, vero nobis
-                      quam beatae nesciunt aliquam molestias, optio hic laborum
-                      esse. Deserunt architecto officiis laudantium corporis
-                      voluptatem.
+                      <div class="tab-pane container fade" id="mission">
+                        <p>
+                          Fatima ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                        <p>
+                          Jannin ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                      </div>
+                      <div class="tab-pane container fade" id="vision">
+                        <p>
+                          John ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                        <p>
+                          Jane ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                      </div>
+                      <div class="tab-pane container fade" id="support">
+                        <p>
+                          John ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                        <p>
+                          Jane ipsum dolor sit amet consectetur adipisicing
+                          elit. Neque ab aliquid, atque enim, vero nobis quam
+                          beatae nesciunt aliquam molestias, optio hic laborum
+                          esse. Deserunt architecto officiis laudantium corporis
+                          voluptatem.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -577,6 +595,395 @@
         </div>
       </div>
     </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div
+                class="tab-pane container active testimonial__item"
+                id="tab1"
+              >
+                <div class="testimonial__inner">
+                  <p>
+                    Afifa Sampa The standard chunk of Lorem Ipsum used since the
+                    1500s is reproduced below for those interested. Sections
+                    Bonorum et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Afifa Sampa </span> - COO, AMERIMAR ENTERPRISES,
+                      INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab2">
+                <div class="testimonial__inner">
+                  <p>
+                    John The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                </div>
+                <div class="testimonial__author">
+                  <h6>
+                    <span>John Nira </span> - COO, AMERIMAR ENTERPRISES, INC.
+                  </h6>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab3">
+                <div class="testimonial__inner">
+                  <p>
+                    Jone The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Jone Jane </span> - COO, AMERIMAR ENTERPRISES, INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab4">
+                <div class="testimonial__inner">
+                  <p>
+                    Janen The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Janen Asrafy </span> - COO, AMERIMAR ENTERPRISES,
+                      INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab5">
+                <div class="testimonial__inner">
+                  <p>
+                    Afrin The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES,
+                      INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab6">
+                <div class="testimonial__inner">
+                  <p>
+                    Irin The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Irin Asrafy </span> - COO, AMERIMAR ENTERPRISES,
+                      INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab7">
+                <div class="testimonial__inner">
+                  <p>
+                    Mohima The standard chunk of Lorem Ipsum used since the
+                    1500s is reproduced below for those interested. Sections
+                    Bonorum et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Mohima Asrafy </span> - COO, AMERIMAR ENTERPRISES,
+                      INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane container fade testimonial__item" id="tab8">
+                <div class="testimonial__inner">
+                  <p>
+                    Shipa The standard chunk of Lorem Ipsum used since the 1500s
+                    is reproduced below for those interested. Sections Bonorum
+                    et Malorum original.
+                  </p>
+                  <div class="testimonial__author">
+                    <h6>
+                      <span>Shipa </span> - COO, AMERIMAR ENTERPRISES, INC.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <!-- Nav tabs -->
+            <ul
+              class="nav nav-tabs testimonial-thumb-wrapper testimonial__thumb"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab1">
+                  <div class="thumb__img">
+                    <img src="./img/testimonial-1.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab2">
+                  <div class="thumb__img">
+                    <img src="./img/testimonial-2.jpg" alt="" />
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab3"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-3.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab4"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-4.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab5"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-5.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab6"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-6.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab7"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-7.jpg" alt="" /></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab8"
+                  ><div class="thumb__img">
+                    <img src="./img/testimonial-8.jpg" alt="" /></div
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section id="news">
+      <div class="container">
+        <div class="news__title align-items-end">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <span>Latest post</span>
+              <h2>Latest News</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                <br />
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="news__content row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
+            <div class="news__items">
+              <div class="news__img">
+                <a href="#">
+                  <img src="./img/blog-01.jpg" alt="" />
+                </a>
+              </div>
+              <div class="news__inner">
+                <div class="news__heading">
+                  <a href="#">App Development</a>
+                  <h4>What is the Difference between Web and Brand.</h4>
+                </div>
+                <div class="inner__btn"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
+            <div class="news__items">
+              <div class="news__img">
+                <a href="#">
+                  <img src="./img/blog-02.jpg" alt="" />
+                </a>
+              </div>
+              <div class="news__inner">
+                <div class="news__heading">
+                  <a href="#">React App</a>
+                  <h4>A big ticket gone to be an interesting look New York.</h4>
+                </div>
+                <div class="inner__btn"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
+            <div class="news__items">
+              <div class="news__img">
+                <a href="#">
+                  <img src="./img/blog-03.jpg" alt="" />
+                </a>
+              </div>
+              <div class="news__inner">
+                <div class="news__heading">
+                  <a href="#">Photoshop</a>
+                  <h4>Getting tickets to the big show have a closer look.</h4>
+                </div>
+                <div class="inner__btn"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news__btn">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <a href="#">View more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="clients__title text-center">
+              <span>Our Clients</span>
+              <h2>Our Clients</h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available,
+                <br />
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 clients__item">
+            <ul class="brand__style">
+              <li><img src="./img/brand-01.png" alt="" /></li>
+              <li><img src="./img/brand-02.png" alt="" /></li>
+              <li><img src="./img/brand-03.png" alt="" /></li>
+              <li><img src="./img/brand-04.png" alt="" /></li>
+              <li><img src="./img/brand-05.png" alt="" /></li>
+              <li><img src="./img/brand-06.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer  -->
+    <footer>
+      <div class="footer__top">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-6 col-md-12 col-sm-12 col-12">
+              <h2 class="text-white mb--0">
+                Enough Talk, Let's Build Something Together
+              </h2>
+            </div>
+            <div
+              class="col-lg-4 col-xl-4 offset-xl-2 col-md-12 col-sm-12 col-12"
+            >
+              <div
+                class="call-to-cation-tbn text-left text-lg-right mt_md--20 mt_sm--20"
+              >
+                <a class="footer__top__btn" href="#button">Read Out Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bot">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+              <div class="footer__text">
+                <div class="logo__footer">
+                  <a href="#"><img src="./img/logo-light.png" alt="" /></a>
+                </div>
+                <p>
+                  Copyright © 2021 <a href="#">Imroz</a> React Template. Built
+                  with love in Bangladesh All rights reserved.
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-2 col-xl-2 offset-xl-1 col-md-6 col-sm-6 col-12 mt_mobile--40"
+            >
+              <div class="footer__item">
+                <h4>Quick Link</h4>
+                <ul>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our Blog</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+              <div class="footer__item">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Our Blog</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+              <div class="footer__item">
+                <h4>Say Hello</h4>
+                <ul>
+                  <li>Email: <a href="#">admin@example.com</a></li>
+                  <li>Email: <a href="#">hr@example.com</a></li>
+                  <li>Phone: <a href="#">01957485123</a></li>
+                </ul>
+              </div>
+              <div class="footer__icon">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- jquery -->
